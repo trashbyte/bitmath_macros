@@ -1,0 +1,15 @@
+[package]
+name = "bitmath_macros"
+version = "0.0.1"
+edition = "2021"
+author = "trashbyte"
+
+[lib]
+proc-macro = true
+name = "bitmath_macros"
+path = "src/lib.rs"
+
+[dependencies]
+quote = "1.0.18"
+syn = "1.0.91"
+proc-macro2 = "1.0.37"
